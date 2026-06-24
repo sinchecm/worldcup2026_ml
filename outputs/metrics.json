@@ -1,0 +1,26 @@
+{
+  "selection_train_rows": 12219,
+  "selection_calibration_rows": 1054,
+  "evaluation_test_rows": 2592,
+  "deployment_train_rows": 13273,
+  "deployment_calibration_rows": 1231,
+  "selected_classifier": "logistic_regression",
+  "classifier_candidate_metrics": {
+    "logistic_regression": {
+      "accuracy": 0.6080246913580247,
+      "log_loss": 0.8753695736978765,
+      "brier_multiclass": 0.5134241507508202
+    },
+    "xgboost": {
+      "accuracy": 0.6003086419753086,
+      "log_loss": 0.8766918184873591,
+      "brier_multiclass": 0.5137453458407333
+    }
+  },
+  "goal_model_metrics": {
+    "team_a_goal_mae": 1.0326664675343347,
+    "team_b_goal_mae": 0.8465196320153944,
+    "team_a_mean_poisson_deviance": 1.205117371980739,
+    "team_b_mean_poisson_deviance": 1.1592038978580712
+  }
+}

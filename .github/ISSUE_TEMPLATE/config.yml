@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Project README
+    url: https://github.com/your-org/worldcup2026-ml
+    about: Start with the setup and deployment instructions in the README.

@@ -1,0 +1,129 @@
+year,team,rating,rating_date,contender_rank,champion,runner_up,champion_flag,runner_up_flag,finalist_flag
+2010,Spain,2050.54,2010-05-29,1,Spain,Netherlands,1,0,1
+2010,Brazil,1984.404,2010-03-02,2,Spain,Netherlands,0,0,0
+2010,Netherlands,1943.547,2010-05-26,3,Spain,Netherlands,0,1,1
+2010,England,1904.586,2010-05-30,4,Spain,Netherlands,0,0,0
+2010,Italy,1904.421,2010-03-03,5,Spain,Netherlands,0,0,0
+2010,Germany,1887.044,2010-05-29,6,Spain,Netherlands,0,0,0
+2010,Argentina,1876.182,2010-05-24,7,Spain,Netherlands,0,0,0
+2010,France,1842.784,2010-05-30,8,Spain,Netherlands,0,0,0
+2010,Mexico,1837.078,2010-05-30,9,Spain,Netherlands,0,0,0
+2010,Chile,1829.326,2010-05-30,10,Spain,Netherlands,0,0,0
+2010,Portugal,1810.455,2010-05-24,11,Spain,Netherlands,0,0,0
+2010,Australia,1796.782,2010-05-24,12,Spain,Netherlands,0,0,0
+2010,Uruguay,1787.27,2010-05-26,13,Spain,Netherlands,0,0,0
+2010,South Korea,1776.368,2010-05-30,14,Spain,Netherlands,0,0,0
+2010,United States,1776.109,2010-05-29,15,Spain,Netherlands,0,0,0
+2010,Serbia,1766.531,2010-05-29,16,Spain,Netherlands,0,0,0
+2010,Nigeria,1758.944,2010-05-30,17,Spain,Netherlands,0,0,0
+2010,Ivory Coast,1755.993,2010-05-30,18,Spain,Netherlands,0,0,0
+2010,Paraguay,1749.316,2010-05-30,19,Spain,Netherlands,0,0,0
+2010,Japan,1741.599,2010-05-30,20,Spain,Netherlands,0,0,0
+2010,Greece,1738.84,2010-05-25,21,Spain,Netherlands,0,0,0
+2010,Denmark,1738.697,2010-05-27,22,Spain,Netherlands,0,0,0
+2010,Cameroon,1738.072,2010-05-29,23,Spain,Netherlands,0,0,0
+2010,Honduras,1729.211,2010-05-27,24,Spain,Netherlands,0,0,0
+2010,Switzerland,1724.77,2010-03-03,25,Spain,Netherlands,0,0,0
+2010,Ghana,1719.358,2010-03-03,26,Spain,Netherlands,0,0,0
+2010,New Zealand,1649.837,2010-05-29,27,Spain,Netherlands,0,0,0
+2010,Slovakia,1636.167,2010-05-29,28,Spain,Netherlands,0,0,0
+2010,Algeria,1631.726,2010-05-28,29,Spain,Netherlands,0,0,0
+2010,Slovenia,1627.169,2010-03-03,30,Spain,Netherlands,0,0,0
+2010,South Africa,1624.429,2010-05-31,31,Spain,Netherlands,0,0,0
+2010,North Korea,1604.931,2010-05-25,32,Spain,Netherlands,0,0,0
+2014,Spain,2064.627,2014-05-30,1,Germany,Argentina,0,0,0
+2014,Brazil,2012.881,2014-03-05,2,Germany,Argentina,0,0,0
+2014,Germany,1998.674,2014-05-13,3,Germany,Argentina,1,0,1
+2014,Argentina,1938.261,2014-03-05,4,Germany,Argentina,0,1,1
+2014,Netherlands,1905.434,2014-05-31,5,Germany,Argentina,0,0,0
+2014,England,1891.443,2014-05-30,6,Germany,Argentina,0,0,0
+2014,Portugal,1877.415,2014-05-31,7,Germany,Argentina,0,0,0
+2014,Uruguay,1876.829,2014-05-30,8,Germany,Argentina,0,0,0
+2014,Chile,1868.71,2014-03-05,9,Germany,Argentina,0,0,0
+2014,Italy,1862.402,2014-05-31,10,Germany,Argentina,0,0,0
+2014,United States,1858.811,2014-03-05,11,Germany,Argentina,0,0,0
+2014,Colombia,1858.392,2014-05-31,12,Germany,Argentina,0,0,0
+2014,France,1840.973,2014-05-27,13,Germany,Argentina,0,0,0
+2014,Greece,1818.316,2014-05-31,14,Germany,Argentina,0,0,0
+2014,Mexico,1810.723,2014-05-31,15,Germany,Argentina,0,0,0
+2014,Ivory Coast,1800.129,2014-05-30,16,Germany,Argentina,0,0,0
+2014,Russia,1793.786,2014-05-31,17,Germany,Argentina,0,0,0
+2014,Japan,1792.746,2014-05-27,18,Germany,Argentina,0,0,0
+2014,Ecuador,1792.549,2014-05-31,19,Germany,Argentina,0,0,0
+2014,Switzerland,1789.803,2014-05-30,20,Germany,Argentina,0,0,0
+2014,Croatia,1780.506,2014-05-31,21,Germany,Argentina,0,0,0
+2014,Belgium,1771.671,2014-05-26,22,Germany,Argentina,0,0,0
+2014,Iran,1757.95,2014-05-30,23,Germany,Argentina,0,0,0
+2014,Nigeria,1757.475,2014-05-28,24,Germany,Argentina,0,0,0
+2014,Australia,1753.011,2014-05-26,25,Germany,Argentina,0,0,0
+2014,Bosnia and Herzegovina,1742.638,2014-05-30,26,Germany,Argentina,0,0,0
+2014,Ghana,1736.014,2014-05-31,27,Germany,Argentina,0,0,0
+2014,Honduras,1723.53,2013-11-19,28,Germany,Argentina,0,0,0
+2014,Costa Rica,1722.983,2014-01-25,29,Germany,Argentina,0,0,0
+2014,South Korea,1716.99,2014-05-28,30,Germany,Argentina,0,0,0
+2014,Cameroon,1683.01,2014-05-29,31,Germany,Argentina,0,0,0
+2014,Algeria,1671.689,2014-05-31,32,Germany,Argentina,0,0,0
+2018,Brazil,2036.867,2018-03-27,1,France,Croatia,0,0,0
+2018,Germany,2004.58,2018-03-27,2,France,Croatia,0,0,0
+2018,Spain,1992.472,2018-03-27,3,France,Croatia,0,0,0
+2018,Argentina,1964.246,2018-05-29,4,France,Croatia,0,0,0
+2018,Portugal,1934.154,2018-05-28,5,France,Croatia,0,0,0
+2018,France,1918.939,2018-05-28,6,France,Croatia,1,0,1
+2018,Peru,1905.46,2018-05-29,7,France,Croatia,0,0,0
+2018,England,1900.076,2018-03-27,8,France,Croatia,0,0,0
+2018,Belgium,1898.093,2018-03-27,9,France,Croatia,0,0,0
+2018,Colombia,1894.658,2018-03-27,10,France,Croatia,0,0,0
+2018,Mexico,1863.365,2018-05-28,11,France,Croatia,0,0,0
+2018,Uruguay,1856.515,2018-03-26,12,France,Croatia,0,0,0
+2018,Switzerland,1848.611,2018-03-27,13,France,Croatia,0,0,0
+2018,Croatia,1830.952,2018-03-27,14,France,Croatia,0,1,1
+2018,Iran,1829.595,2018-05-28,15,France,Croatia,0,0,0
+2018,Poland,1810.523,2018-03-27,16,France,Croatia,0,0,0
+2018,Costa Rica,1790.435,2018-03-27,17,France,Croatia,0,0,0
+2018,Senegal,1785.842,2018-05-31,18,France,Croatia,0,0,0
+2018,Iceland,1772.891,2018-03-27,19,France,Croatia,0,0,0
+2018,South Korea,1764.452,2018-05-28,20,France,Croatia,0,0,0
+2018,Australia,1762.356,2018-03-27,21,France,Croatia,0,0,0
+2018,Denmark,1762.162,2018-03-27,22,France,Croatia,0,0,0
+2018,Sweden,1754.436,2018-03-27,23,France,Croatia,0,0,0
+2018,Tunisia,1735.141,2018-05-28,24,France,Croatia,0,0,0
+2018,Serbia,1731.964,2018-03-27,25,France,Croatia,0,0,0
+2018,Japan,1730.916,2018-05-30,26,France,Croatia,0,0,0
+2018,Panama,1728.376,2018-05-29,27,France,Croatia,0,0,0
+2018,Morocco,1719.078,2018-05-31,28,France,Croatia,0,0,0
+2018,Egypt,1694.83,2018-05-25,29,France,Croatia,0,0,0
+2018,Nigeria,1693.285,2018-05-28,30,France,Croatia,0,0,0
+2018,Russia,1683.943,2018-05-30,31,France,Croatia,0,0,0
+2018,Saudi Arabia,1665.488,2018-05-28,32,France,Croatia,0,0,0
+2022,Brazil,2077.938,2022-03-29,1,Argentina,France,0,0,0
+2022,Argentina,2061.878,2022-03-29,2,Argentina,France,1,0,1
+2022,France,2051.895,2022-03-29,3,Argentina,France,0,1,1
+2022,Belgium,2020.203,2022-03-29,4,Argentina,France,0,0,0
+2022,England,1984.775,2022-03-29,5,Argentina,France,0,0,0
+2022,Spain,1978.236,2022-03-29,6,Argentina,France,0,0,0
+2022,Portugal,1926.398,2022-03-29,7,Argentina,France,0,0,0
+2022,Germany,1922.029,2022-03-29,8,Argentina,France,0,0,0
+2022,Uruguay,1905.276,2022-03-29,9,Argentina,France,0,0,0
+2022,Netherlands,1892.091,2022-03-29,10,Argentina,France,0,0,0
+2022,Switzerland,1890.536,2022-03-29,11,Argentina,France,0,0,0
+2022,Denmark,1882.328,2022-03-29,12,Argentina,France,0,0,0
+2022,Mexico,1879.084,2022-05-28,13,Argentina,France,0,0,0
+2022,Iran,1867.198,2022-03-29,14,Argentina,France,0,0,0
+2022,United States,1863.499,2022-03-30,15,Argentina,France,0,0,0
+2022,Japan,1836.666,2022-03-29,16,Argentina,France,0,0,0
+2022,South Korea,1828.002,2022-03-29,17,Argentina,France,0,0,0
+2022,Serbia,1827.56,2022-03-29,18,Argentina,France,0,0,0
+2022,Croatia,1824.041,2022-03-29,19,Argentina,France,0,0,0
+2022,Wales,1817.15,2022-03-29,20,Argentina,France,0,0,0
+2022,Canada,1814.207,2022-03-30,21,Argentina,France,0,0,0
+2022,Ecuador,1814.169,2022-03-29,22,Argentina,France,0,0,0
+2022,Costa Rica,1795.633,2022-03-30,23,Argentina,France,0,0,0
+2022,Senegal,1779.711,2022-03-29,24,Argentina,France,0,0,0
+2022,Poland,1776.728,2022-03-29,25,Argentina,France,0,0,0
+2022,Morocco,1765.932,2022-03-29,26,Argentina,France,0,0,0
+2022,Australia,1727.884,2022-03-29,27,Argentina,France,0,0,0
+2022,Saudi Arabia,1720.502,2022-03-29,28,Argentina,France,0,0,0
+2022,Qatar,1714.184,2022-03-29,29,Argentina,France,0,0,0
+2022,Cameroon,1700.294,2022-03-29,30,Argentina,France,0,0,0
+2022,Tunisia,1682.48,2022-03-29,31,Argentina,France,0,0,0
+2022,Ghana,1613.487,2022-03-29,32,Argentina,France,0,0,0
