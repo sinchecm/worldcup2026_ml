@@ -29,14 +29,12 @@ jobs:
           fi
 
       - name: Checkout repository
-        if: steps.stop_check.outputs.skip_refresh != 'true'
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        uses: actions/checkout@v7
+       
 
       - name: Set up Python
         if: steps.stop_check.outputs.skip_refresh != 'true'
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
