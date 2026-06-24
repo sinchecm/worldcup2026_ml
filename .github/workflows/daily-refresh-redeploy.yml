@@ -1,0 +1,72 @@
+name: Daily Refresh and Streamlit Redeploy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: worldcup2026-daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stop after tournament end
+        id: stop_check
+        run: |
+          TODAY="$(date -u +%F)"
+          END_DATE="2026-07-19"
+          echo "today=$TODAY" >> "$GITHUB_OUTPUT"
+          if [[ "$TODAY" > "$END_DATE" ]]; then
+            echo "skip_refresh=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip_refresh=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout repository
+        if: steps.stop_check.outputs.skip_refresh != 'true'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        if: steps.stop_check.outputs.skip_refresh != 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install pipeline dependencies
+        if: steps.stop_check.outputs.skip_refresh != 'true'
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements_pipeline.txt
+
+      - name: Refresh source-ready data
+        if: steps.stop_check.outputs.skip_refresh != 'true'
+        run: python src/prepare_real_data.py
+
+      - name: Rebuild model outputs
+        if: steps.stop_check.outputs.skip_refresh != 'true'
+        run: python src/main.py
+
+      - name: Commit refreshed artifacts
+        if: steps.stop_check.outputs.skip_refresh != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw outputs README.md CHANGELOG.md RELEASE_NOTES_v6.md || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: daily World Cup 2026 refresh"
+          git push
+
+      - name: Tournament ended
+        if: steps.stop_check.outputs.skip_refresh == 'true'
+        run: echo "Daily refresh skipped because the tournament end date has passed."

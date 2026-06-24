@@ -136,6 +136,31 @@ make app           # launch Streamlit dashboard
 
 `requirements.txt` is intentionally lightweight for deployment. Use `requirements_pipeline.txt` for full model rebuilding and offline retraining.
 
+Streamlit Community Cloud reflects updates from your GitHub repository automatically after new pushes, and dependency changes trigger a fuller redeploy cycle. This makes the repo compatible with scheduled refresh automation through GitHub Actions.
+
+## Daily automation and redeploy
+
+This repo includes `.github/workflows/daily-refresh-redeploy.yml`.
+
+What it does:
+- runs once per day at 08:00 UTC
+- also supports manual runs from the GitHub Actions tab
+- refreshes source-ready data with `python src/prepare_real_data.py`
+- rebuilds prediction outputs with `python src/main.py`
+- commits refreshed files in `data/raw/` and `outputs/`
+- pushes those changes back to `main`
+- stops automatically after `2026-07-19`
+
+Because Streamlit Community Cloud updates from GitHub pushes, those workflow commits function as the redeploy trigger for the app.
+
+### One-time GitHub setup
+
+Make sure the repository allows GitHub Actions to write back to the repo. The workflow requests `contents: write`, but your repository or organization settings must also permit that behavior.
+
+### Manual run
+
+Open the repository on GitHub, go to **Actions**, choose **Daily Refresh and Streamlit Redeploy**, and use **Run workflow**.
+
 ## Core files
 
 ### `src/prepare_real_data.py`
