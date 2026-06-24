@@ -7,6 +7,7 @@ from typing import Dict
 import pandas as pd
 from sklearn.base import clone
 from sklearn.calibration import CalibratedClassifierCV
+from sklearn.frozen import FrozenEstimator
 from sklearn.linear_model import LogisticRegression, PoissonRegressor
 from sklearn.metrics import accuracy_score, log_loss, mean_absolute_error, mean_poisson_deviance
 from sklearn.pipeline import Pipeline
@@ -131,9 +132,14 @@ def fit_calibrated_classifier(base_model: Pipeline, X_train, y_train, X_calib, y
     fitted.fit(X_train, y_train)
     if len(X_calib) < 50:
         return fitted
-    calibrated = CalibratedClassifierCV(fitted, method="sigmoid", cv="prefit")
+
+    calibrated = CalibratedClassifierCV(
+        estimator=FrozenEstimator(fitted),
+        method="sigmoid",
+    )
     calibrated.fit(X_calib, y_calib)
     return calibrated
+
 
 
 
