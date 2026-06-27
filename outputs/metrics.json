@@ -8,14 +8,14 @@
   "classifier_candidate_metrics": {
     "logistic_regression": {
       "accuracy": 0.6075268817204301,
-      "log_loss": 0.875290090852794,
-      "brier_multiclass": 0.5133684595514545
+      "log_loss": 0.8752900908528015,
+      "brier_multiclass": 0.5133684595514527
     }
   },
   "goal_model_metrics": {
-    "team_a_goal_mae": 1.031588523114422,
+    "team_a_goal_mae": 1.0315885231144217,
     "team_b_goal_mae": 0.8465314437565642,
     "team_a_mean_poisson_deviance": 1.2031414665122555,
-    "team_b_mean_poisson_deviance": 1.1589749560817193
+    "team_b_mean_poisson_deviance": 1.1589749560817186
   }
 }
