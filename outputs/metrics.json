@@ -1,21 +1,21 @@
 {
   "selection_train_rows": 12219,
   "selection_calibration_rows": 1054,
-  "evaluation_test_rows": 2632,
+  "evaluation_test_rows": 2634,
   "deployment_train_rows": 13273,
   "deployment_calibration_rows": 1231,
   "selected_classifier": "logistic_regression",
   "classifier_candidate_metrics": {
     "logistic_regression": {
-      "accuracy": 0.6090425531914894,
-      "log_loss": 0.8742049338625899,
-      "brier_multiclass": 0.512400621143083
+      "accuracy": 0.6093394077448747,
+      "log_loss": 0.8739199943861036,
+      "brier_multiclass": 0.5121902883322322
     }
   },
   "goal_model_metrics": {
-    "team_a_goal_mae": 1.028551205882799,
-    "team_b_goal_mae": 0.8454857887259896,
-    "team_a_mean_poisson_deviance": 1.1985064094693756,
-    "team_b_mean_poisson_deviance": 1.1573517663589137
+    "team_a_goal_mae": 1.0284658327029383,
+    "team_b_goal_mae": 0.8458446991844032,
+    "team_a_mean_poisson_deviance": 1.1989847465481593,
+    "team_b_mean_poisson_deviance": 1.1573219359626201
   }
 }
