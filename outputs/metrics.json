@@ -8,8 +8,8 @@
   "classifier_candidate_metrics": {
     "logistic_regression": {
       "accuracy": 0.6093868281604845,
-      "log_loss": 0.8738944620143265,
-      "brier_multiclass": 0.5121957978460008
+      "log_loss": 0.8738944620143244,
+      "brier_multiclass": 0.5121957978460017
     }
   },
   "goal_model_metrics": {
